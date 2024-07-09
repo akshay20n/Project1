@@ -50,7 +50,7 @@ To get a local copy up and running, follow these steps:
 - HTML5
 - CSS3
 - JavaScript
-- [Official Joke API](https://official-joke-api.appspot.com/)
+- [Official Joke API](https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single)
 
 ## Contributing
 
