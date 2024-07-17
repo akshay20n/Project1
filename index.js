@@ -1,23 +1,17 @@
-const press=document.querySelector("button");
-press.addEventListener("click",()=>{
-
-fetch("https://api.api-ninjas.com/v1/dadjokes")
-        .then(response => response.json())
-        .then(data => {
-             document.getElementsByClassName("joke")[0].textContent = data.joke;
-             console.log(data.joke);
-        })
-        .catch(error => {
-            console.error("There is a problem with API !!!", error);
+$(document).ready(function() {
+    $('#generate-joke').click(function() {
+        $.ajax({
+            url: 'https://icanhazdadjoke.com/',
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json'
+            },
+            success: function(data) {
+                $('.joke').text(data.joke);
+            },
+            error: function() {
+                $('.joke').text('Oops! Something went wrong. Try again later.');
+            }
         });
-   setTimeout(()=>{
-       audio= new Audio("hahasound.mp3");
-      audio.play();
-   },500);
-        
+    });
 });
-
-
-
-        
-
