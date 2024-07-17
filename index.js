@@ -1,7 +1,7 @@
 const press=document.querySelector("button");
 press.addEventListener("click",()=>{
 
-fetch("https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single")
+fetch("https://api.api-ninjas.com/v1/dadjokes")
         .then(response => response.json())
         .then(data => {
              document.getElementsByClassName("joke")[0].textContent = data.joke;
