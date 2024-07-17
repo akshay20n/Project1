@@ -1,4 +1,4 @@
-# Project1: Random Programmer's Joke Generator
+# Project1: Random Dad Joke Generator
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@
 
 ## Description
 
-Project1 is a fun and interactive webpage that generates random programming jokes. It's perfect for developers looking to take a quick break and have a laugh. The jokes are fetched from a public API and displayed on the webpage.
+Project1 is a fun and interactive webpage that generates random Dad jokes. It's perfect for everyone looking to take a quick break and have a laugh. The jokes are fetched from a public API and displayed on the webpage.
 
 ## Features
 
@@ -50,7 +50,7 @@ To get a local copy up and running, follow these steps:
 - HTML5
 - CSS3
 - JavaScript
-- [Official Joke API](https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single)
+- [Official Joke API](https://icanhazdadjoke.com/)
 
 ## Contributing
 
